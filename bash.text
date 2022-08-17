@@ -1,0 +1,6 @@
+npm install @ionic-native/sqlite
+
+npm i @ionic-native/core
+npm i cordova-sqlite-storage
+
+ionic generate service services/dbcrud

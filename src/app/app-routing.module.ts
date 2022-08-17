@@ -11,6 +11,10 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'janajson',
+    loadChildren: () => import('./janajson/janajson.module').then( m => m.JanajsonPageModule)
+  },
 ];
 
 @NgModule({
