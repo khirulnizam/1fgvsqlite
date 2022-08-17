@@ -1,0 +1,7 @@
+{
+  "name": "1fgvsqlite",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
